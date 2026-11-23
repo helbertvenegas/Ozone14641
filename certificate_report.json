@@ -1,0 +1,319 @@
+{
+  "schema_version": 3,
+  "authors": [
+    "James Gómez",
+    "Helbert Venegas"
+  ],
+  "family_total": 26,
+  "sample_rows": 73,
+  "monomial_relation_families": 14,
+  "quadratic_action_crosschecks": 280,
+  "sample_counts_by_family": {
+    "K": 18,
+    "L": 18,
+    "Q": 4,
+    "R": 4,
+    "V": 4,
+    "B": 3,
+    "G": 5,
+    "D": 2,
+    "C": 1,
+    "E": 1,
+    "F": 1,
+    "I": 1,
+    "J": 1,
+    "S": 2,
+    "T": 1,
+    "U": 1,
+    "O": 1,
+    "M": 1,
+    "P": 1,
+    "W": 1,
+    "Z": 1,
+    "N": 1
+  },
+  "families": {
+    "B": {
+      "test_specialization": {
+        "p": "I",
+        "h": "I"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "E": {
+      "test_specialization": {
+        "p": "I",
+        "h": "(1 - I)/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "J": {
+      "test_specialization": {
+        "q": "I",
+        "h": "sqrt(2)/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "K": {
+      "test_specialization": {
+        "q": "1",
+        "f": "-1",
+        "h": "1"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "L": {
+      "test_specialization": {
+        "q": "1",
+        "f": "-1",
+        "h": "1"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "M": {
+      "test_specialization": {
+        "f": "-1",
+        "h": "1/2 + I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "N": {
+      "test_specialization": {
+        "f": "1/2 + I/2",
+        "g": "1/2 - I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "O": {
+      "test_specialization": {
+        "f": "-1",
+        "h": "1/2 + I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "P": {
+      "test_specialization": {
+        "f": "-1",
+        "h": "1/2 + I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "S": {
+      "test_specialization": {
+        "h": "1/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "T": {
+      "test_specialization": {
+        "h": "1/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "U": {
+      "test_specialization": {
+        "h": "1/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "W": {
+      "test_specialization": {
+        "f": "1",
+        "h": "1/2 + I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "Z": {
+      "test_specialization": {
+        "f": "1",
+        "h": "1/2 + I/2"
+      },
+      "mixed_scalars_nonzero": true,
+      "original_plane_relations": true,
+      "generic_PBW_identity": true,
+      "symbolic_action_crosschecks": 20,
+      "source_basis": "GV monomial manuscript Table tab:mono",
+      "original_sigma_provenance": "reconstructed from monomial presentation, not independently transcribed from ZZ09",
+      "verified_scope": "quadratic relations and basis-change consistency",
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "A": {
+      "source_classification": "no PI member according to older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "C": {
+      "source_classification": "PI samples reported; general parameter criterion conjectural in older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "D": {
+      "source_classification": "PI iff criterion in draft (see notes)",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "F": {
+      "source_classification": "PI samples reported; general parameter criterion conjectural in older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "G": {
+      "source_classification": "PI iff criterion in draft (see notes)",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "H": {
+      "source_classification": "no PI member according to older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "I": {
+      "source_classification": "PI samples reported; general parameter criterion conjectural in older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "Q": {
+      "source_classification": "PI iff criterion in draft (see notes)",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "R": {
+      "source_classification": "PI iff criterion in draft (see notes)",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "V": {
+      "source_classification": "PI iff criterion in draft (see notes)",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "X": {
+      "source_classification": "no PI member according to older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    },
+    "Y": {
+      "source_classification": "no PI member according to older draft",
+      "degree_two_matrix_loaded": false,
+      "center_fixed": null,
+      "ozone_completeness": null
+    }
+  },
+  "disclaimer": "Zero relation mismatches does not establish full ozone group. Center generators and exhaustive automorphism solutions remain absent."
+}

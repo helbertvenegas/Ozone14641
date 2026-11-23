@@ -1,0 +1,27 @@
+family,method,PI_classification_status,ozone_verification_status,PI_condition_from_draft,source
+A,obstruction,no PI member according to older draft,not applicable,never PI,Texto pegado (4).txt:tab:PI
+B,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+C,nonmonomial,PI samples reported; general parameter criterion conjectural in older draft,sample group only; conditional on computed center,observed 3*h^2 root of unity; no general proof in this source,Texto pegado (4).txt:tab:PI
+D,Ore/localization,PI iff criterion in draft (see notes),sample group only; no uniform ozone theorem,"p,h roots of unity and p != ±1; at p=±1 not PI",Texto pegado (4).txt:tab:PI
+E,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,2*h^2 root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+F,nonmonomial,PI samples reported; general parameter criterion conjectural in older draft,sample group only; conditional on computed center,observed 2*h^2 root of unity; no general proof in this source,Texto pegado (4).txt:tab:PI
+G,Ore/localization,PI iff criterion in draft (see notes),sample group only; no uniform ozone theorem,"p,h roots of unity, p != ±1; f as allowed by family",Texto pegado (4).txt:tab:PI
+H,obstruction,no PI member according to older draft,not applicable,never PI,Texto pegado (4).txt:tab:PI
+I,nonmonomial,PI samples reported; general parameter criterion conjectural in older draft,sample group only; conditional on computed center,observed 2*h^2 root of unity; no general proof in this source,Texto pegado (4).txt:tab:PI
+J,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,2*h^2 root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+K,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,"q,f,h roots of unity",Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+L,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,"q,f,h roots of unity",Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+M,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h(1±sqrt(f)) roots of unity; f !=0,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+N,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,f±g roots of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+O,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h(1±sqrt(f)) roots of unity; f !=0,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+P,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h(1±sqrt(f)) roots of unity; f !=0,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+Q,Ore/localization,PI iff criterion in draft (see notes),sample group only; no uniform ozone theorem,h root of unity,Texto pegado (4).txt:tab:PI
+R,Ore/localization,PI iff criterion in draft (see notes),sample group only; no uniform ozone theorem,h root of unity; ZZ08 cited,Texto pegado (4).txt:tab:PI
+S,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,2*h root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+T,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,2*h root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+U,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,2*h root of unity,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+V,Ore/localization,PI iff criterion in draft (see notes),sample group only; no uniform ozone theorem,h root of unity,Texto pegado (4).txt:tab:PI
+W,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h(sqrt(f)±i) roots of unity; f !=0,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A
+X,obstruction,no PI member according to older draft,not applicable,never PI,Texto pegado (4).txt:tab:PI
+Y,obstruction,no PI member according to older draft,not applicable,never PI,Texto pegado (4).txt:tab:PI
+Z,monomial,PI iff explicit monomial parameter criterion,general theorem; sample table where present,h(sqrt(f)±i) roots of unity; f !=0,Texto pegado (4).txt:tab:PI; Texto pegado (3).txt:Theorem A

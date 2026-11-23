@@ -1,0 +1,19 @@
+name: Focused ozone verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  focused:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+      - name: Test exact focused checks
+        run: python -m unittest test_even_m test_starred_constraints test_qrv_h1 test_audit_fast test_odd_m -v
+      - name: Audit all family records
+        run: python audit_all_families.py

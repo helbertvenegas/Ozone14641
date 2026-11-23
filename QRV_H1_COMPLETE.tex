@@ -1,0 +1,99 @@
+\documentclass[11pt]{amsart}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\newtheorem{proposition}{Proposition}
+\DeclareMathOperator{\Oz}{Oz}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Ad}{Ad}
+\newcommand{\kk}{\Bbbk}
+\title{Exact ozone computations for three type (14641) algebras at $h=1$}
+\author{James G\'omez \and Helbert Venegas}
+\date{November 22, 2026}
+\begin{document}
+\maketitle
+
+% Supplementary note — James Gomez and Helbert Venegas
+% Independent R family presentation: Zhang--Zhang (2009), family R;
+% checked against https://4d-as.ncag.info/families/ore-r/ on 2026-11-22.
+% Q and V use the Gomez--Venegas draft, Table tab:Mt.
+\section{Three ozone computations for the specializations $h=1$}
+\noindent Throughout $\kk$ is algebraically closed of characteristic zero. We use
+$\Oz(B)=\Aut_{Z(B)\text{-alg}}(B)$ and the right-normal convention
+$w a=\sigma(a)w$, so $\sigma=\Ad_w$ in the quotient division ring.
+The following statements are \emph{specializations}, not generic-twist theorems.
+
+\begin{proposition}
+For each of $B=\mathbb Q(1),\mathbb R(1),\mathbb V(1)$,
+$\Oz(B)\cong C_4$.
+\end{proposition}
+\begin{proof}
+For $\mathbb Q(1)$, use the separate proof in \texttt{QRV\_H1\_THEOREMS.tex}:
+$b=x_1(y_1^2+y_2^2-2y_1y_2)+x_2(y_1^2-y_2^2)$ is central;
+the full quadratic automorphism equations together with its fixedness leave
+precisely the four powers of $\Ad_{x_1}$.
+
+For $\mathbb V(1)$ let
+\[
+ w=x_1(y_1^2-y_2^2)-x_2(y_1^2+y_1y_2).
+\]
+Direct PBW reduction, from the four mixed relations of the normal-element
+localization of the supplied manuscript, gives
+\[
+ w x_1=(-x_1+x_2)w,\quad w x_2=x_2w,\quad
+ w y_1=-y_2w,\quad w y_2=y_1w.
+\]
+Hence $\sigma=\Ad_w$ restricts to
+\[
+ X=\begin{pmatrix}-1&1\\0&1\end{pmatrix},\qquad
+ Y=\begin{pmatrix}0&-1\\1&0\end{pmatrix},
+\]
+and has order four. The existing upper-bound calculation is as follows:
+any ozone automorphism preserves both degree-one planes; since $x_2$,
+$v=x_1^2(x_1-x_2)^2$, and $s_y=y_1^2+y_2^2$ are central,
+its $x$-matrix belongs to
+$\{I,\left(\begin{smallmatrix}-1&1\\0&1\end{smallmatrix}\right)\}$
+and its $y$-matrix is a signed permutation. The six defining quadratic
+relations restrict this finite candidate set to four elements. Therefore
+$|\Oz(\mathbb V(1))|\le4$, and the powers of $\Ad_w$ realize equality.
+
+For $\mathbb R(1)$, in generators $x_1,x_2,y_1,y_2$,
+\[
+ x_2x_1=-x_1x_2,\quad y_2y_1=-y_1y_2,
+\]
+\[
+\begin{array}{ll}
+ y_1x_1=x_1y_1+x_2y_1+x_1y_2,& y_1x_2=x_1y_2,\\
+ y_2x_1=x_2y_1,&y_2x_2=-x_2y_1-x_1y_2+x_2y_2.
+\end{array}
+\]
+The PBW reducer certifies centrality of
+\[
+ s_x=x_1^2+x_2^2,\quad s_y=y_1^2+y_2^2,\quad
+ z=x_1y_1+x_1y_2+x_2y_1-x_2y_2.
+\]
+Any ozone automorphism preserves each degree-one plane, and the
+$(-1)$-quantum-plane relations imply that its two matrices are monomial.
+Fixing $s_x$ and $s_y$ restricts all their nonzero entries to $\pm1$.
+Of the 64 pairs, only eight preserve the four mixed relations; fixing $z$
+leaves four. Define
+\[
+ u=x_2y_1+x_1y_2.
+\]
+A second exact PBW reduction gives
+\[
+ u x_1=x_2u,\quad u x_2=-x_1u,\quad
+ u y_1=-y_2u,\quad u y_2=y_1u.
+\]
+As $u\ne0$ is normal, $\Ad_u\in\Oz(\mathbb R(1))$. It has order four;
+its four distinct powers exhaust the above candidate set.
+\end{proof}
+
+\paragraph{Scope.} The $\mathbb R$ presentation was transcribed from
+\texttt{https://4d-as.ncag.info/families/ore-r/} and should be
+cross-checked against the original Zhang--Zhang matrix $\Sigma$ before
+submission. Exact source verification is distinct from exact symbolic
+computation. None of these arguments establishes $\Oz(\mathbb Q(h))$,
+$\Oz(\mathbb R(h))$ or $\Oz(\mathbb V(h))$ for arbitrary PI twists.
+
+\end{document}

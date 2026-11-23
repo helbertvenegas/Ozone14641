@@ -1,0 +1,53 @@
+% Gomez--Venegas: supplemental verification note (22 November 2026).
+% Scope and caveats are deliberate; do not cite this as a classification theorem.
+\section{Boundary of the $\mathbb D$--$\mathbb G$ verification}
+The proof of the $h=1$ ozone theorem for $\mathbb G$ in
+\texttt{DG\_THEOREM\_NOTE.tex} depends on the full-center theorem
+\texttt{thm:G} in the working manuscript. A change of twist $h$ may change
+both the center and the ozone group. Thus the full $\mathbb G(p,f,h)$
+classification is \emph{not} certified. For $\mathbb D(p,1)$ the necessary
+central constraints leave 32 diagonal candidates at $p=i$, whereas the
+historical table reports ozone order 16. Until additional central
+constraints are established, the $\mathbb D$ classification is also open.
+
+\section{An exact quotient-conic certificate for $\mathbb Q$ and $\mathbb V$}
+Let $n$ be the distinguished normal generator and $t=n^{-1}x'$ as in
+Table~\texttt{tab:Mt} of the working manuscript. In each of the families
+$\mathbb Q$ and $\mathbb V$, writing $Y=(y_1,y_2)^T$, the relations take
+$Yt=M(t)Y$, where
+\[
+M_{\mathbb Q}(t)=\begin{pmatrix}-1&1-t\\1+t&1\end{pmatrix},\qquad
+M_{\mathbb V}(t)=\begin{pmatrix}1&t\\1-t&0\end{pmatrix}.
+\]
+The characteristic polynomials are
+\[
+\chi_{\mathbb Q}(t,\mu)=\mu^2+t^2-2,\qquad
+\chi_{\mathbb V}(t,\mu)=\mu^2-\mu+t^2-t.
+\]
+The associated Vieta transformations are
+\[
+\phi_{\mathbb Q}(t,\mu)=(\mu,-t),\qquad
+\phi_{\mathbb V}(t,\mu)=(\mu,1-t).
+\]
+\begin{proposition}
+Each of these transformations has exact order four and preserves the
+respective affine conic. Both are rotations by a quarter-turn in
+suitable centered coordinates: for $\mathbb Q$ about $(0,0)$, for
+$\mathbb V$ about $(\frac12,\frac12)$.
+\end{proposition}
+\begin{proof}
+The Jacobian matrix of each transformation is
+$J=\left(\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right)$,
+so $J^2=-I$ and $J^4=I$. The stated centers are fixed points.
+Substitution gives $\chi(t,\mu)=\chi(\phi(t,\mu))$; and
+$\phi^2\ne\mathrm{id}$ on the coordinate ring of the conic since
+that conic is positive-dimensional in characteristic zero. Hence both
+maps have exact order four.
+\end{proof}
+This is a certificate of the \emph{dynamical reduction}, not yet a
+certificate for the ozone group. Determining $\operatorname{Oz}$ still
+requires a complete generating set of the affine center, the degree-one
+matrix equations, and a proof of exhaustivity. Family $\mathbb R$
+requires its separate degree-two-normal-element presentation; a
+matrix $M(t)$ must not be inferred from the data for $\mathbb Q$ or
+$\mathbb V$.

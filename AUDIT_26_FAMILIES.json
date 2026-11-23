@@ -1,0 +1,1428 @@
+{
+  "schema_version": 8,
+  "authors": [
+    "James Gómez",
+    "Helbert Venegas"
+  ],
+  "basis": "four GV drafts and the v7 code, with no independent ZZ09 Sigma audit",
+  "source_cases": 26,
+  "sample_rows": 73,
+  "sample_arithmetic_passed": 73,
+  "family_tests_passed": 26,
+  "families_with_pi_members": 22,
+  "families_with_monomial_general_order_theorem": 14,
+  "families_with_h1_specialized_C4_proof": 3,
+  "generic_ozone_certified_independently_for_all_PI_parameters": 0,
+  "monomial_families": [
+    "B",
+    "E",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "S",
+    "T",
+    "U",
+    "W",
+    "Z"
+  ],
+  "no_PI_families": [
+    "A",
+    "H",
+    "X",
+    "Y"
+  ],
+  "historical_sample_counts": {
+    "A": 0,
+    "B": 3,
+    "C": 1,
+    "D": 2,
+    "E": 1,
+    "F": 1,
+    "G": 5,
+    "H": 0,
+    "I": 1,
+    "J": 1,
+    "K": 18,
+    "L": 18,
+    "M": 1,
+    "N": 1,
+    "O": 1,
+    "P": 1,
+    "Q": 4,
+    "R": 4,
+    "S": 2,
+    "T": 1,
+    "U": 1,
+    "V": 4,
+    "W": 1,
+    "X": 0,
+    "Y": 0,
+    "Z": 1
+  },
+  "families": {
+    "A": {
+      "family": "A",
+      "tests": {
+        "catalogued_as_non_PI": true
+      },
+      "verified": "PI obstruction attributed to manuscript, not independently re-proved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "B": {
+      "family": "B",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "C": {
+      "family": "C",
+      "tests": {},
+      "verified": "historical examples only; generic PI criterion and Oz unresolved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "D": {
+      "family": "D",
+      "tests": {
+        "necessary_candidates_n4": 32
+      },
+      "verified": "necessary conditions only, no complete group",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "E": {
+      "family": "E",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "F": {
+      "family": "F",
+      "tests": {},
+      "verified": "historical examples only; generic PI criterion and Oz unresolved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "G": {
+      "family": "G",
+      "tests": {
+        "h_equals_1_conditional_group_structure": true
+      },
+      "verified": "conditional h=1 general theorem; finite arithmetic checks n=3,4,5,6,8,12",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "H": {
+      "family": "H",
+      "tests": {
+        "catalogued_as_non_PI": true
+      },
+      "verified": "PI obstruction attributed to manuscript, not independently re-proved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "I": {
+      "family": "I",
+      "tests": {},
+      "verified": "historical examples only; generic PI criterion and Oz unresolved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "J": {
+      "family": "J",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "K": {
+      "family": "K",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "L": {
+      "family": "L",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "M": {
+      "family": "M",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "N": {
+      "family": "N",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "O": {
+      "family": "O",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "P": {
+      "family": "P",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "Q": {
+      "family": "Q",
+      "tests": {
+        "h_equals_1_normal_or_center_certificate": true,
+        "h_equals_1_summary": "{'family': 'Q', 'h': '1', 'upper_bound_before_new_center': 8, 'upper_bound_after_new_center': 4, 'ozone_group': 'C4', 'proof': 'upper bound via exact central constraints and degree-one matrices; lower bound via Ad_x1', 'new_central_element': '-1*x2y2y2+1*x2y1y1+1*x1y2y2+-2*x1y1y2+1*x1y1y1'}"
+      },
+      "verified": "h=1 specialized ozone C4 under sourced defining relations",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "generic_twists": "not certified"
+    },
+    "R": {
+      "family": "R",
+      "tests": {
+        "h_equals_1_normal_or_center_certificate": true,
+        "h_equals_1_summary": "{'family': 'R', 'h': '1', 'result': 'Oz(R(1)) = C4', 'relation_candidates': 8, 'candidates_after_new_center': 4, 'central_element': 'x1*y1+x1*y2+x2*y1-x2*y2', 'normal_element': 'x2*y1+x1*y2', 'intertwining_identities_checked': 4, 'distinct_powers_of_normal_conjugation': 4, 'status': 'Exact h=1 theorem conditional on the published R presentation; no generic-h claim'}"
+      },
+      "verified": "h=1 specialized ozone C4 under sourced defining relations",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "generic_twists": "not certified"
+    },
+    "S": {
+      "family": "S",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "T": {
+      "family": "T",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "U": {
+      "family": "U",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "V": {
+      "family": "V",
+      "tests": {
+        "h_equals_1_normal_or_center_certificate": true,
+        "h_equals_1_summary": "{'family': 'V', 'h': '1', 'result': 'Oz(V(1)) = C4', 'method': 'upper bound via necessary central constraints; lower bound via normal-inner generator', 'normal_element': 'x1*(y1^2-y2^2)-x2*(y1^2+y1*y2)', 'normal_bidegree': [1, 2], 'intertwining_identities_checked': 4, 'quadratic_relation_residuals': 0, 'upper_bound': 4, 'distinct_powers_of_normal_conjugation': 4, 'source_limitation': 'defining relations reconstructed from supplied manuscript tab:Mt; generic twists not proved'}"
+      },
+      "verified": "h=1 specialized ozone C4 under sourced defining relations",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "generic_twists": "not certified"
+    },
+    "W": {
+      "family": "W",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    },
+    "X": {
+      "family": "X",
+      "tests": {
+        "catalogued_as_non_PI": true
+      },
+      "verified": "PI obstruction attributed to manuscript, not independently re-proved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "Y": {
+      "family": "Y",
+      "tests": {
+        "catalogued_as_non_PI": true
+      },
+      "verified": "PI obstruction attributed to manuscript, not independently re-proved",
+      "generic_ozone_proved_by_software": false,
+      "passed": true
+    },
+    "Z": {
+      "family": "Z",
+      "tests": {
+        "parameter_restrictions_sample": true,
+        "change_of_basis_plane_relations": true,
+        "six_quadratic_relations_identity": true
+      },
+      "verified": "one exact representative; source-monomial relation consistency",
+      "generic_ozone_proved_by_software": false,
+      "passed": true,
+      "manuscript_general_order_formula": "theorem-dependent, not independently certified here"
+    }
+  },
+  "historical_rows": [
+    {
+      "row": 1,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 2,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 3,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 4,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 5,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 6,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 7,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$-1$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 8,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$1$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 9,
+      "family": "K",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$i$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 10,
+      "family": "K",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 11,
+      "family": "K",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 12,
+      "family": "K",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 13,
+      "family": "K",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 14,
+      "family": "K",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 15,
+      "family": "K",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 16,
+      "family": "K",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$-1$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 17,
+      "family": "K",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$1$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 18,
+      "family": "K",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$i$",
+      "factors": [
+        4,
+        8
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 19,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 20,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 21,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=-1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 22,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 23,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 24,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 25,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 26,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 27,
+      "family": "L",
+      "parameters": "$q=-1,\\ f=i$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 28,
+      "family": "L",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 29,
+      "family": "L",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 30,
+      "family": "L",
+      "parameters": "$q=1,\\ f=-1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 31,
+      "family": "L",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 32,
+      "family": "L",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 33,
+      "family": "L",
+      "parameters": "$q=1,\\ f=1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 34,
+      "family": "L",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 35,
+      "family": "L",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 36,
+      "family": "L",
+      "parameters": "$q=1,\\ f=i$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 37,
+      "family": "Q",
+      "parameters": "",
+      "twist": "$-1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 38,
+      "family": "Q",
+      "parameters": "",
+      "twist": "$1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 39,
+      "family": "Q",
+      "parameters": "",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 40,
+      "family": "Q",
+      "parameters": "",
+      "twist": "$\\omega$",
+      "factors": [
+        3,
+        3,
+        4
+      ],
+      "order": 36,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 41,
+      "family": "R",
+      "parameters": "",
+      "twist": "$-1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 42,
+      "family": "R",
+      "parameters": "",
+      "twist": "$1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 43,
+      "family": "R",
+      "parameters": "",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 44,
+      "family": "R",
+      "parameters": "",
+      "twist": "$\\omega$",
+      "factors": [
+        3,
+        3,
+        4
+      ],
+      "order": 36,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 45,
+      "family": "V",
+      "parameters": "",
+      "twist": "$-1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 46,
+      "family": "V",
+      "parameters": "",
+      "twist": "$1$",
+      "factors": [
+        4
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 47,
+      "family": "V",
+      "parameters": "",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 48,
+      "family": "V",
+      "parameters": "",
+      "twist": "$\\omega$",
+      "factors": [
+        3,
+        3,
+        4
+      ],
+      "order": 36,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 49,
+      "family": "B",
+      "parameters": "$p=i$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 50,
+      "family": "B",
+      "parameters": "$p=i$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 51,
+      "family": "B",
+      "parameters": "$p=i$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 52,
+      "family": "G",
+      "parameters": "$p=i,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 53,
+      "family": "G",
+      "parameters": "$p=i,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 54,
+      "family": "G",
+      "parameters": "$p=i,\\ f=1$",
+      "twist": "$i$",
+      "factors": [
+        2,
+        2
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 55,
+      "family": "G",
+      "parameters": "$p=\\omega,\\ f=1$",
+      "twist": "$-1$",
+      "factors": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "order": 36,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 56,
+      "family": "G",
+      "parameters": "$p=\\omega,\\ f=1$",
+      "twist": "$1$",
+      "factors": [
+        3,
+        3
+      ],
+      "order": 9,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 57,
+      "family": "D",
+      "parameters": "$p=i$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 58,
+      "family": "D",
+      "parameters": "$p=\\omega$",
+      "twist": "$1$",
+      "factors": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "order": 36,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 59,
+      "family": "C",
+      "parameters": "$p=\\omega$",
+      "twist": "$h^2=-1/3$",
+      "factors": [
+        2,
+        2,
+        3
+      ],
+      "order": 12,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 60,
+      "family": "E",
+      "parameters": "$p=i$",
+      "twist": "$h^2=-i/2$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 61,
+      "family": "F",
+      "parameters": "$p=i$",
+      "twist": "$h^2=i/2$",
+      "factors": [
+        2,
+        2
+      ],
+      "order": 4,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 62,
+      "family": "I",
+      "parameters": "$q=i$",
+      "twist": "$h^2=1/2$",
+      "factors": [
+        4,
+        4
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 63,
+      "family": "J",
+      "parameters": "$q=i$",
+      "twist": "$h^2=1/2$",
+      "factors": [
+        2,
+        4
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 64,
+      "family": "S",
+      "parameters": "",
+      "twist": "$1/2$",
+      "factors": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 65,
+      "family": "S",
+      "parameters": "",
+      "twist": "$i/2$",
+      "factors": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "order": 16,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 66,
+      "family": "T",
+      "parameters": "",
+      "twist": "$1/2$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 67,
+      "family": "U",
+      "parameters": "",
+      "twist": "$1/2$",
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "order": 8,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 68,
+      "family": "O",
+      "parameters": "$f=-1$",
+      "twist": "$\\frac{1+i}{2}$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 69,
+      "family": "M",
+      "parameters": "$f=-1$",
+      "twist": "$\\frac{1+i}{2}$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 70,
+      "family": "P",
+      "parameters": "$f=-1$",
+      "twist": "$\\frac{1+i}{2}$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 71,
+      "family": "W",
+      "parameters": "$f=1$",
+      "twist": "$\\frac{1+i}{2}$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 72,
+      "family": "Z",
+      "parameters": "$f=1$",
+      "twist": "$\\frac{1+i}{2}$",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    },
+    {
+      "row": 73,
+      "family": "N",
+      "parameters": "$f=\\frac{1+i}{2},\\ g=\\frac{1-i}{2}$",
+      "twist": "---",
+      "factors": [
+        2,
+        4,
+        4
+      ],
+      "order": 32,
+      "checks_passed": true,
+      "errors": [],
+      "scope": "arithmetic consistency only; no full center or exhaustivity check"
+    }
+  ],
+  "limitations": [
+    "14 monomial results depend on supplied manuscript theorems",
+    "D, G general twists, Q R V general twists, C F I generic family are not complete",
+    "4 starred cases lack demonstrated complete center/rank",
+    "exact source Section 4 ZZ09 Sigma matrices have not all been independently transcribed",
+    "passing a relation check or a numerical example does not establish all ozone automorphisms"
+  ]
+}

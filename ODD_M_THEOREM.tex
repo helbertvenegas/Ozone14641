@@ -1,0 +1,69 @@
+% Conditional on Theorem B and Tables mono, act, split, uv in GV manuscript.
+% Independent of the old sample table. The finite-phase certificates are in odd_m_analysis.py.
+\begin{theorem}[Invariant factors when $m$ is odd]\label{thm:odd-m-structure}
+Let $B$ be a PI member of $\mathbb M,\mathbb N,\mathbb O,\mathbb P,\mathbb W$ or $\mathbb Z$, over an algebraically closed field of characteristic zero. Put
+$m=\operatorname{ord}(u^2)$ and $d=m'=\operatorname{ord}(v^2)$, and suppose that $m$ is odd. Write
+\[
+ A_d=C_{2d}\times C_{2d}\times C_2,\qquad
+ B_d=C_{4d}\times C_{2d},\qquad
+ D_d=C_{4d}\times C_{4d},\qquad
+ E_d=C_{2d}\times C_{2d}.
+\]
+Then the following table gives $\operatorname{Oz}(B)$:
+\[
+\begin{array}{c|c|c|c|c}
+ & \operatorname{ord}(u)\text{ odd},\operatorname{ord}(v)\text{ odd}&
+ \operatorname{ord}(u)\text{ odd},\operatorname{ord}(v)\text{ even}&
+ \operatorname{ord}(u)\equiv2\pmod4,\operatorname{ord}(v)\text{ odd}&
+ \operatorname{ord}(u)\equiv2\pmod4,\operatorname{ord}(v)\text{ even}\\\hline
+ \mathbb M,\mathbb P & A_d & B_d & B_d & A_d\;(\operatorname{ord}(v)\equiv2\!\!\pmod4),\ B_d\;(4\mid\operatorname{ord}(v))\\
+ \mathbb N & B_d & A_d\;(\operatorname{ord}(v)\equiv2\!\!\pmod4),\ B_d\;(4\mid\operatorname{ord}(v)) & A_d & B_d\\
+ \mathbb O,\mathbb W,\mathbb Z & E_d & D_d & A_d & B_d
+\end{array}
+\]
+In the first three rows $A_d$ and $B_d$ are the only two possibilities for groups of order $8d^2$ containing the diagonal subgroup $C_{2d}^2$ with quotient $C_2$.
+\end{theorem}
+
+\begin{proof}[Proof strategy and exact certificate]
+If $m$ is odd, Table~\ref{tab:split} yields
+$\Gamma/\Gamma_K=C_{2d}^2$; hence $N_K=C_{2d}^2$.
+For $\mathbb M,\mathbb N,\mathbb P$, Proposition~\ref{prop:MNP} yields an exact sequence
+$1\to N_K\to\operatorname{Oz}(B)\to C_2\to1$.
+If $T$ lifts the nontrivial element, the group is abelian, so the extension
+splits precisely when $T^2\in 2N_K$. The class of $T^2$ in
+$N_K/2N_K\cong C_2^2$ is computed from the double-swap constants
+$(c_1,c_2;d_1,d_2)$ of Table~\ref{tab:act}. If $T=S\chi$ with
+$\chi(e_1)=a e_1$, $\chi(e_2)=a\varepsilon_xe_2$,
+$\chi(z_1)=bz_1$, $\chi(z_2)=b\varepsilon_yz_2$, then
+\[
+ T^2\big|_{V_e}=(c_1c_2)\varepsilon_xa^2 I,
+ \qquad T^2\big|_{V_z}=(d_1d_2)\varepsilon_yb^2 I.
+\]
+Equality of the restrictions $T|_K$ and one of
+$\operatorname{Ad}_e|_K$, $\operatorname{Ad}_z|_K$,
+$\operatorname{Ad}_{ez}|_K$ yields equations for
+$a^{2d}$ and $b^{2d}$. Substitution gives the first three rows.
+The phase calculations, including the dependence on $\operatorname{ord}(v)$
+modulo four, are independently enumerated with rational root-of-unity
+exponents in the supplementary script \texttt{odd\_m\_analysis.py}.
+
+For $\mathbb O,\mathbb W,\mathbb Z$, if $\operatorname{ord}(u)$ is even,
+there are no double swaps in the ozone group. The diagonal group is an
+extension of $N_K$ by $C_2$; the same square-class test gives $A_d$
+for odd $\operatorname{ord}(v)$ and $B_d$ for even $\operatorname{ord}(v)$.
+If $\operatorname{ord}(u)$ is odd and $\operatorname{ord}(v)$ is even,
+$L=K$ and the quotient is $C_2^2$. Two independent cosets have square
+classes forming a basis of $N_K/2N_K$. Hence the invariant factors are
+$C_{4d}^2$.
+
+If both $\operatorname{ord}(u)$ and $\operatorname{ord}(v)$ are odd,
+$L=K(c)$ and the degree of $c$ given in the proof of
+Proposition~\ref{prop:OWZ} adds an order-two relation to
+$\Gamma/\Gamma_K$. This gives
+$N_L\cong C_{2d}\times C_d$. The index-two quotient has a lift whose
+square has trivial order-two component (as follows from the table of
+restrictions on $K$). Because $d$ is odd, its square in the odd-order
+part of $N_L$ can be eliminated by multiplying the lift by an element
+of $N_L$. The extension therefore splits and yields
+$N_L\times C_2\cong C_{2d}^2$.
+\end{proof}
