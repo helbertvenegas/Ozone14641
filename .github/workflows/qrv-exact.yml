@@ -1,0 +1,17 @@
+name: Exact ozone certificates (Q R V at h=1)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  qrv-exact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact symbolic dependency
+        run: python -m pip install 'sympy>=1.12,<2'
+      - name: Run independently checked Q/R/V certificates
+        run: python -m unittest test_qrv_h1 -v
